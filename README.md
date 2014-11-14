@@ -22,4 +22,5 @@ source_directory - defaults to "."
 time_limit - unlimited by default. Specified in seconds otherwise.
 
 Sample cron invocation:
+
     0 21 * * * /home/me/.rvm/wrappers/ruby-2.1.5@s3_backup/ruby /home/me/s3_backup/s3_backup.rb /mnt/my_nas 32400 >/var/log/s3_backup.log 2>&1
